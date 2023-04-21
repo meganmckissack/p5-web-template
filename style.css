@@ -1,0 +1,37 @@
+html, body {
+  min-height: 100%;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  font-family: 'Roboto', sans-serif;
+  color: #E8EAED;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  /* we use this kind of like console.log, it allow us to see how our elements are laid out */
+  /* border: solid 1px red; */ 
+}
+
+header > :nth-child(1) {
+  margin-right: auto;
+}
+a {
+  padding-right: 10px;
+}
+
+#content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+canvas {
+  max-width: 85vw;
+  max-height: 85vh;
+}
